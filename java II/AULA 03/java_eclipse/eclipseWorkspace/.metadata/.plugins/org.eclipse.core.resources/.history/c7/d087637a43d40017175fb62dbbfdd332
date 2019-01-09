@@ -1,0 +1,23 @@
+
+public abstract class Conta {
+
+	protected double saldo;
+
+	abstract void deposita(double valor);
+
+	public double getSaldo() {
+		return this.saldo;
+	}
+
+	abstract void atualiza(double taxaSelic);
+
+	public void saca(double valor) {
+		this.saldo -= valor;
+
+	}
+	
+	public void setSaldo(double saldo) {
+		this.saldo = saldo;
+	}
+
+}

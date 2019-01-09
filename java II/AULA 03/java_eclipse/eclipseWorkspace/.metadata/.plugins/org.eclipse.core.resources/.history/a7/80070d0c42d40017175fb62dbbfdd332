@@ -1,0 +1,26 @@
+
+public abstract class Conta {
+
+	protect double saldo;
+
+	abstract void deposita(double valor);
+
+	public double getSaldo() {
+		return this.saldo;
+	}
+
+	public void atualiza(double valor) {
+		this.saldo += valor;
+
+	}
+
+	public void saca(double valor) {
+		this.saldo -= valor;
+
+	}
+	
+	public void setSaldo(double saldo) {
+		this.saldo = saldo;
+	}
+
+}

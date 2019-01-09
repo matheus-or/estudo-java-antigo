@@ -1,0 +1,10 @@
+
+public class AtualizadorDeContas{
+	
+	public void fazAtualiza(Conta conta) {
+        //...
+        conta.atualiza(taxaSelic);
+        //...
+    }
+
+}

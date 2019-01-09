@@ -1,0 +1,12 @@
+
+public class Funcionario {
+
+	private String nome;
+	protected String cpf;
+	protected double salario;
+	
+	public double getBonificacao() {
+		return this.saldo * 1.2;
+	}
+	
+}

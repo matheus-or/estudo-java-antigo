@@ -1,0 +1,10 @@
+
+public class AtualizadorDeContas extends Conta{
+	
+	public void atualiza(Conta conta) {
+        //...
+        conta.atualiza(taxaSelic);
+        //...
+    }
+
+}

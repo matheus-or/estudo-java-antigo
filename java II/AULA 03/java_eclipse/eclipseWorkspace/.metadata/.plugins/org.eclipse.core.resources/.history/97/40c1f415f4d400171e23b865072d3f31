@@ -1,0 +1,5 @@
+
+publ Tributavel {
+	double calculaTributo();
+
+}

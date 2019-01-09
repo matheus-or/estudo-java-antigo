@@ -1,0 +1,8 @@
+
+public class SistemaInterno {
+	void login(Funcionario funcionario) {
+		funcinario.autentica();
+
+	}
+
+}
