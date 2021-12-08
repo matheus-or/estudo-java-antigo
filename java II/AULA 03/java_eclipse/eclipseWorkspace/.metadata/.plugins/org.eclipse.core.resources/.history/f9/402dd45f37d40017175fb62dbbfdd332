@@ -1,6 +1,0 @@
-
-public class ControleDeBonificacoes {
-	
-	private double totalDeBonificacoes = 0;
-
-}

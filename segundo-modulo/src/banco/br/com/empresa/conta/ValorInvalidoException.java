@@ -1,0 +1,10 @@
+package banco.br.com.empresa.conta;
+
+public class ValorInvalidoException extends Exception {
+	
+	
+	public ValorInvalidoException(double valor){
+		super("Valor inválido: " + valor);
+	}
+ 
+}
